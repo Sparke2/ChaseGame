@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Dino AI world</title>
+</head>
+
+<body style='background: #d2ffd2; margin: 0; padding: 0; width: 100%; height: 100%;'>
+  <!--<canvas id='display' width='1' height='1' style='width: 100%; height: 100%;' />-->
+
+  <input id="btn3" type="button" value="Generate!" onclick="generateWorld()">
+  <br>
+  <br>
+
+  <canvas id='canvas' width='1' height='1' style='width: 100%; height: 100%;' />
+
+  <!--<div id="invisible_div" style="display:none;">-->
+  <div id="invisible_div">
+    <img id="source" src="Wheat1-1.png">
+  </div>
+
+  <script src="world_generator.js"></script>
+  <script src="map.js"></script>
+  <script src="graphic.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
