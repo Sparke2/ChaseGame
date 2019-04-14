@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Dino AI world</title>
+</head>
+
+<body style='background: #ffffff; margin: 0; padding: 0; width: 100%; height: 100%;'>
+
+  <input type="text" id="rotation_manual" value="Rotation">
+  <input id="btn1" type="button" value="Apply rotation" onclick="debug_applyRot()">
+
+  <input type="text" id="speed_manual" value="Speed">
+  <input id="btn1" type="button" value="Apply rotation" onclick="debug_applySpeed()">
+
+  <input id="btn1" type="button" value="START / STOP ()" onclick="debug_startStop()">
+
+  <!-- <input id="btn3" type="button" value="Generate!" onclick="drawMap(map)"> -->
+  <canvas id='canvas' width='3000' height='3000' style='width: 100%; height: 100%;' />
+
+  <!--<div id="invisible_div" style="display:none;">-->
+
+  <script src="world_generator.js"></script>
+  <script src="map.js"></script>
+  <script src="graphic.js"></script>
+  <script src="herbivore.js"></script>
+  <script src="lifecycle.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
